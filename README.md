@@ -25,7 +25,9 @@ This repository contains our pipeline for forcing spatial logic into the model u
 ### Visuals & Metrics
 
 **Training GRPO with Unsloth (20 Steps, 1 Epoch)**
-*Slothing our way through 4 generations per state.* | Step | Training Loss | Total Reward | KL Div | JSON Reward | Gameplay Score |
+*Slothing our way through 4 generations per state.*
+
+| Step | Training Loss | Total Reward | KL Div | JSON Reward | Gameplay Score |
 | :--- | :--- | :--- | :--- | :--- | :--- |
 | **1** | 0.000000 | -110.00 | 0.0006 | -60.00 | -50.00 |
 | **2** | 0.000000 | -102.84 | 0.0006 | -56.56 | -46.28 |
@@ -37,7 +39,7 @@ This repository contains our pipeline for forcing spatial logic into the model u
 Here is the model playing natively without `<think>` wrappers or UI crutches. We strictly enforced this JSON-to-JSON pipeline:
 
 ![JSON Input and Output Format](<images/Screenshot 2026-02-14 151447.png>)
-*Caption: No reasoning, no rambling. Just pure state-action mapping.*
+*No reasoning, no rambling. Just pure state-action mapping.*
 
 ---
 
