@@ -35,10 +35,15 @@ Training GRPO with Unsloth (20 Steps, 1 Epoch)**
 **No reasoning, no rambling. Just pure state-action mapping.**
 Here is the model playing natively without `<think>` wrappers or UI crutches. We strictly enforced this JSON-to-JSON pipeline:
 
+
 ![JSON Input and Output Format](<images/Screenshot 2026-02-14 151447.png>)
 
-`[Insert Image 3: Curriculum Learning Diagram]`
-*Caption: Scaling complexity: 4x4 -> 6x6 -> M x N grids.*
+4. **Curriculum Learning:** You don't teach calculus before addition. We started the model on tiny sandboxes to let it learn basic adjacency rules without the noise of a massive board. Once it stopped eating mines for breakfast, we graduated it to variable grids:
+
+   ```text
+      Phase 1          Phase 2            Phase 3
+      [ 4 x 4 ]  ───>  [ 6 x 6 ]  ───>  [ M x N ]
+     (Adjacency)       (Tactics)     (Generalization)
 
 ---
 
