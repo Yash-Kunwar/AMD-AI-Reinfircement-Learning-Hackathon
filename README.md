@@ -1,8 +1,5 @@
 # Minesweeper-RL
 
-[![Status: WIP](https://img.shields.io/badge/Status-Work_In_Progress-orange.svg)]()
-[![Hardware](https://img.shields.io/badge/Hardware-AMD_MI300x-red.svg)]()
-
 Training a Large Language Model to natively play Minesweeper without a UI, without wrappers, and without hallucinating. Just raw JSON game states in, and JSON actions out. 
 
 Built by Yash Kunwar, Person1, and Person2 during the AMD AI Reinforcement Learning Hackathon at IIT Delhi (Track 2: Gaming the Models).
@@ -35,8 +32,7 @@ This repository contains our pipeline for forcing spatial logic into the model u
 | **19** | 0.000900 | -65.18 | 0.2222 | -19.37 | -10.81 |
 | **20** | 0.000500 | -88.53 | 0.1244 | 1.68 | 2.84 |
 
-**Anti-Verbosity In Action**
-Here is the model playing natively without `<think>` wrappers or UI crutches. We strictly enforced this JSON-to-JSON pipeline:
+**Here is the model playing natively without `<think>` wrappers or UI crutches. We strictly enforced this JSON-to-JSON pipeline:**
 
 ![JSON Input and Output Format](<images/Screenshot 2026-02-14 151447.png>)
 *No reasoning, no rambling. Just pure state-action mapping.*
