@@ -32,11 +32,10 @@ Training GRPO with Unsloth (20 Steps, 1 Epoch)**
 | **19** | 0.000900 | -65.18 | 0.2222 | -19.37 | -10.81 |
 | **20** | 0.000500 | -88.53 | 0.1244 | 1.68 | 2.84 |
 
-**Anti-Verbosity In Action**
+**No reasoning, no rambling. Just pure state-action mapping.**
 Here is the model playing natively without `<think>` wrappers or UI crutches. We strictly enforced this JSON-to-JSON pipeline:
 
-![JSON Input and Output Format](images/Screenshot 2026-02-14 151447.png)
-*Caption: No reasoning, no rambling. Just pure state-action mapping.*
+![JSON Input and Output Format](<images/Screenshot 2026-02-14 151447.png>)
 
 `[Insert Image 3: Curriculum Learning Diagram]`
 *Caption: Scaling complexity: 4x4 -> 6x6 -> M x N grids.*
