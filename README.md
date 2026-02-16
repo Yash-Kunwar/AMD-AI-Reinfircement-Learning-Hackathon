@@ -34,7 +34,7 @@ This repository contains our pipeline for forcing spatial logic into the model u
 
 **Here is the model playing natively without `<think>` wrappers or UI crutches. We strictly enforced this JSON-to-JSON pipeline:**
 
-![JSON Input and Output Format](<images/Screenshot 2026-02-14 151447.png>)
+![JSON Input and Output Format](<images/Screenshot 2026-02-14 151447.png>)<br>
 *No reasoning, no rambling. Just pure state-action mapping.*
 
 ---
