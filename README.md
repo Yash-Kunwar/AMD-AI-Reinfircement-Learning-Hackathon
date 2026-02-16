@@ -2,8 +2,7 @@
 
 Training a Large Language Model to natively play Minesweeper without a UI, without wrappers, and without hallucinating. Just raw JSON game states in, and JSON actions out. 
 
-Built by Yash Kunwar, Person1, and Person2 during the AMD AI Reinforcement Learning Hackathon at IIT Delhi (Track 2: Gaming the Models).
-
+Built by [Ankitha.](https://www.linkedin.com/in/ankithac20/), [Sandeep](https://www.linkedin.com/in/sandeep-yadav-525479327/) and [me](https://www.linkedin.com/in/yash-kunwar/) during the AMD AI Reinforcement Learning Hackathon at IIT Delhi (Track 2: Gaming the Models).
 ---
 
 ### The Scope
