@@ -1,8 +1,5 @@
 # Minesweeper-RL
 
-[![Status: WIP](https://img.shields.io/badge/Status-Work_In_Progress-orange.svg)]()
-[![Hardware](https://img.shields.io/badge/Hardware-AMD_MI300x-red.svg)]()
-
 Training a Large Language Model to natively play Minesweeper without a UI, without wrappers, and without hallucinating. Just raw JSON game states in, and JSON actions out. 
 
 Built by Yash Kunwar, Person1, and Person2 during the AMD AI Reinforcement Learning Hackathon at IIT Delhi (Track 2: Gaming the Models).
@@ -24,7 +21,17 @@ This repository contains our pipeline for forcing spatial logic into the model u
 
 ### Visuals
 
-`[Insert Image 1: Unsloth training loop in the terminal]`
+### Visuals & Metrics
+
+**Training GRPO with Unsloth (20 Steps, 1 Epoch)**
+
+| Step | Training Loss | Total Reward | KL Div | JSON Reward | Gameplay Score |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| **1** | 0.000000 | -110.00 | 0.0006 | -60.00 | -50.00 |
+| **2** | 0.000000 | -102.84 | 0.0006 | -56.56 | -46.28 |
+| **...**| ... | ... | ... | ... | ... |
+| **19** | 0.000900 | -65.18 | 0.2222 | -39.37 | -25.81 |
+| **20** | 0.000500 | -88.53 | 0.1244 | -49.68 | -38.84 |
 *Caption: Slothing our way through 4 generations per state.*
 
 `[Insert Image 2: JSON in, JSON out terminal screenshot]`
