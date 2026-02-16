@@ -21,9 +21,8 @@ This repository contains our pipeline for forcing spatial logic into the model u
 
 ### Visuals
 
-### Visuals & Metrics
-
-**Training GRPO with Unsloth (20 Steps, 1 Epoch)**
+***Slothing our way through 4 generations per state.* 
+Training GRPO with Unsloth (20 Steps, 1 Epoch)**
 
 | Step | Training Loss | Total Reward | KL Div | JSON Reward | Gameplay Score |
 | :--- | :--- | :--- | :--- | :--- | :--- |
@@ -32,7 +31,6 @@ This repository contains our pipeline for forcing spatial logic into the model u
 | **...**| ... | ... | ... | ... | ... |
 | **19** | 0.000900 | -65.18 | 0.2222 | -39.37 | -25.81 |
 | **20** | 0.000500 | -88.53 | 0.1244 | -49.68 | -38.84 |
-*Caption: Slothing our way through 4 generations per state.*
 
 `[Insert Image 2: JSON in, JSON out terminal screenshot]`
 *Caption: Anti-verbosity in action. No `<think>` tags, just moves.*
