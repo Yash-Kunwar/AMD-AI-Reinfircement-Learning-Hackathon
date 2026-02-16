@@ -35,7 +35,7 @@ Training GRPO with Unsloth (20 Steps, 1 Epoch)**
 **Anti-Verbosity In Action**
 Here is the model playing natively without `<think>` wrappers or UI crutches. We strictly enforced this JSON-to-JSON pipeline:
 
-![JSON Input and Output Format](images/Screenshot_2026-02-14_151447.png)
+![JSON Input and Output Format](images/Screenshot 2026-02-14 151447.png)
 *Caption: No reasoning, no rambling. Just pure state-action mapping.*
 
 `[Insert Image 3: Curriculum Learning Diagram]`
