@@ -12,7 +12,7 @@ This repository contains our pipeline for forcing spatial logic into the model u
 
 ### Tech Stack
 * **Model:** Qwen3-4B
-* **Framework:** Unsloth (for the massive VRAM savings and 2x training speedup)
+* **Framework:** [Unsloth](https://unsloth.ai/docs) (for the massive VRAM savings and 2x training speedup)
 * **RL Method:** GRPO via `trl`
 * **Hardware:** AMD MI300x (ROCm)
 
@@ -20,7 +20,7 @@ This repository contains our pipeline for forcing spatial logic into the model u
 
 ### Visuals & Metrics
 
-**1) Training GRPO with Unsloth (20 Steps, 1 Epoch)**
+**1) Training GRPO with [Unsloth](https://unsloth.ai/docs/get-started/reinforcement-learning-rl-guide) (20 Steps, 1 Epoch)**
 *Slothing our way through 4 generations per state.*
 
 | Step | Training Loss | Total Reward | KL Div | JSON Reward | Gameplay Score |
