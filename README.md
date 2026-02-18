@@ -53,4 +53,4 @@ We custom-built the environment and reward functions to violently discourage the
       [ 4 x 4 ]  ───>  [ 6 x 6 ]  ───>  [ M x N ]
      (Adjacency)       (Tactics)     (Generalization)
 
-# This is still in developement. We are working on further inproveing the performance
+# This is still in developement. We are working on further improving the performance
